@@ -1,0 +1,288 @@
+/* p {
+    color: violet;
+    font-size: 90px;
+} */
+
+/* 08 - Classes */
+
+
+body{
+    padding-bottom: 500px ;
+
+
+}
+
+.paragraph{
+
+    background-color: #000;
+    color:aqua;
+    padding: 5px;
+}
+
+#exclusive-title{
+    background-color: purple;
+    color: beige;
+    padding: 10px;
+    font-size: 40px;
+}
+
+/* 10 */
+
+h2 {
+    border-bottom: 2px dotted red;
+}
+
+.titulo{
+    border-bottom: 3px solid blue ;
+}
+
+#algum-titulo {
+    border-bottom: 4px solid green ;
+}
+
+/* 11 */
+
+.color-name{
+    color: crimson;
+}
+
+/* 12 - HEX */
+.hex{
+    color: #55a398
+}
+
+.hex-2{
+    color: #00eaff
+}
+
+/* 13 */
+
+.simple-hex{
+    /* color: #333333; */
+    color: #333;
+
+}
+
+.simple-hex-2{
+    /* color: #aa55ff; */
+    color: #a5f;
+}
+
+/* 14 - RGB */
+
+.rgb{
+    color: rgb(255,0,0)
+}
+
+.mixed-rgb{
+    color: rgb(199, 21, 47 )
+}
+
+.rgba{
+    color: rgba(100, 199, 45, 0.3)
+}
+
+/* 16 hsl */
+
+.hsl{
+color: hsl(100, 82%, 48%)
+
+}
+.hsl-2{
+
+color: hsl(201, 82%, 48)    
+}
+/* . 17 back groud color */
+
+.bg{
+
+    background-color: black;
+    color: yellow;
+}
+
+.bg-2{
+background-color: rgb(red, 200, 20, 40);
+color: #00eaff;
+
+}
+/* 18 opacidade do backgroud */
+
+.bgopacity{
+
+background-color: green;
+opacity: 0.9;
+}
+
+.bgopacity-2{
+
+background-color: #999;
+color:#000;
+opacity: 0.8;
+
+}
+
+/* 19 RGB com opacidade */
+
+.rgba-opacity{
+
+    background-color: rgb(185, 233, 88,); 
+    color: black;
+}
+
+/* 20 Inserindo imagem no CSS */
+
+.bg-image{
+
+    padding: 10px;
+    background-image: url(/dfs_html_css-main/02.css/css/img/nature.jpg);
+    color: #fff;
+    }
+/* 21 centralizar img no bg */
+
+.centered-bg{
+background-image: url(/dfs_html_css-main/02.css/css/img/bridge.jpg);
+height: 400px;
+width: 400px;
+background-position: center;
+background-size: cover;
+
+}
+
+.not-centered-bg{
+    background-image: url(/dfs_html_css-main/02.css/css/img/bridge.jpg);
+    height: 400px;
+width: 400px;
+
+}
+
+.without-padding{
+
+    background-color: #111;
+    color: #fff;
+}
+
+.padding{
+
+    background-color: #333
+    padding: 20px;
+}
+
+.height1{
+height: 300px;
+width: 100px;
+background-color:#333;
+}
+
+.height2{
+height: 300px;
+background-color: #a5f;
+
+}
+
+/* Paddiing individual */
+
+.padding-individual{
+background-color: #222;
+color: #fff;
+padding-top: 5px;
+padding-bottom: 40px;
+padding-left: 10px;
+padding-right: 20px;
+
+}
+
+.shorthand{
+    background-color: #444;
+    color: #fff;
+    padding: 6px 12px 18px 24px;
+
+}
+
+
+.shorthand2{
+background-color: rosybrown;
+color: #fff;
+padding: 10px 20px;
+
+}
+.w-border-box{
+background-color: #444;
+color: #fff;
+width: 400px;
+padding: 50px;
+
+}
+
+
+.border-box{
+background-color: #555;
+color: #fff;
+width: 400px;
+padding: 50px;
+box-sizing: border-box;
+}
+
+/* 27 bordas  */
+
+.border1{
+border: 5px solid red;
+padding: 10px;
+
+}
+
+.border2{
+    border: 2px dotted red;
+    padding: 25px;
+    background-color: #999;    
+    }
+    
+/* 28 BORDAS */
+
+.border-esquerda{
+border-left: 3px solid red;
+
+}
+
+
+.border-abaixo{
+    border-bottom: 5px double red;
+    }
+
+.arrendondadas{
+
+border: 4px solid blue;
+background-color: black;
+color: blue;
+padding: 15px;
+border-radius: 15px;
+
+    }
+
+    .arrendondadas2{
+         background-color: black;
+        color: blue;
+        padding: 15px;
+        border-radius: 25px;
+        
+            }
+
+            .margin1{
+
+margin: 10px;
+background-color: #222;
+
+            }
+
+            .margin2{
+
+                margin-top: 10px;
+                background-color: #222;
+                
+                            }
+
+                            .margin3{
+
+                                margin: 5px 10px 15px 20px
+                                background-color: #222;
+                                
+                                            }
